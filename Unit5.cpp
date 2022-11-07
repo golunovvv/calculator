@@ -21,7 +21,7 @@ __fastcall TForm5::TForm5(TComponent* Owner)
 //---------------------------------------------------------------------------
 void __fastcall TForm5::Button1Click(TObject *Sender)
 {
-/*if (c == 0) {
+if (c == 0) {
 		Edit1->Text = ((TButton*)Sender)->Caption;
 		c = 1;
 	}
@@ -33,12 +33,14 @@ void __fastcall TForm5::Button1Click(TObject *Sender)
 //---------------------------------------------------------------------------
 void __fastcall TForm5::Button11Click(TObject *Sender)
 {
+/*
 if (!c) {
 		Edit1->Text = "0,";
 		c = 1;
 	}
 	else if (Edit1->Text.Pos(",") == 0)
 		Edit1->Text = Edit1->Text + ",";
+		*/
 }
 //---------------------------------------------------------------------------
 void __fastcall TForm5::Button13Click(TObject *Sender)
@@ -57,6 +59,7 @@ Edit1->Text = "";
 //---------------------------------------------------------------------------
 void __fastcall TForm5::Button14Click(TObject *Sender)
 {
+/*
 int EditLen = Edit1->Text.Length();
 	if (EditLen == 0){
 		ShowMessage("Вы ничего не ввели");
@@ -92,6 +95,7 @@ int EditLen = Edit1->Text.Length();
 	c=0;
 		Edit1->Text=FloatToStrF(cosdegree, ffGeneral, 5,2)+" градусов ";
 	}
+	*/
 }
 //---------------------------------------------------------------------------
 void __fastcall TForm5::Button15Click(TObject *Sender)
@@ -103,4 +107,3 @@ if (c) {
 	}
 }
 //---------------------------------------------------------------------------
-*/
